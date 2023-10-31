@@ -1,0 +1,9 @@
+public boolean existeCliente (Cliente cliente) {
+          if (this.cliente.containsKey(cliente.getCodigo()){
+        	  return true;
+          }
+        	  else { 
+        		  return false;
+        	  }
+        	  
+          }
