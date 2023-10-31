@@ -1,0 +1,7 @@
+public Cliente pesquisaCliente {String codigoCliente){
+          throws ClienteNaoExisteException{
+          if (this.produtos.containsKey(codigoCliente)) {
+        	  return this.produto.get(codigoCliente);
+          }
+          throw new ClienteNaoExisteException("Não foi encontrado cliente"+" com o código "+codigoCliente);
+          }
