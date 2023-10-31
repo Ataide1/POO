@@ -1,0 +1,9 @@
+public class PesquisaProdutoDaCategoria {
+         System.out.println("Em qual categoria deseja pesquisar?"+getCategoria;
+	     if(existeProduto(produto) != this.categoria) {
+        	 return System.out.println("Esse item não existe nessa categoria")
+         else {
+        		 return this.produto.put(produto.getCodigo);
+        	 }
+         }
+}
