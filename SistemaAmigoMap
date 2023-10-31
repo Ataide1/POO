@@ -1,0 +1,24 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class SistemaAmigoMap {
+         private Map<String, Amigo> amigos;
+         
+         public SistemaAmigoMap() {
+        	 amigos = new HashMap<>();
+         }
+         public void adicionarAmigo(String nome, int idade) {
+        	 Amigo amigo = new amigo(nome,idade);
+        	 amigos.put(nome,amigo);
+         }
+         public Amigo buscarAmigo(String nome) {
+        	 return amigo.get(nome);
+         }
+         public void removerAmigo(String nome) {
+        	 amigo.remove(nome);
+         }
+         public int getQuantidadeAmigos() {
+        	 return amigos.size();
+         }
+         
+         }
