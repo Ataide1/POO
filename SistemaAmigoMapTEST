@@ -1,0 +1,21 @@
+public class SistemaAmigoMapTest {
+     public static void main(String[]args) {
+    	 SistemaAmigoMap sistemaAmigoMap = new SistemaAmigoMap();
+    	 sistemaAmigoMap.adicionarAmigo("Alice",25);
+    	 sistemaAmigoMap.adicionarAmigo("Bob",30);
+    	 
+    	 Amigo amigoEncontrado = sistemaAmigoMap.buscarAmigo("Alice");
+    	 if (amigoEncontrado != null) {
+    		 System.out.println("Amigo encontrado:"+amigoEncontrado.getNome)
+    		 }
+    	 else {
+    		 System.out.println("Amigo não encontrado.")
+    		 }
+    	 
+    	 sistemaAmigoMap.removerAmigo("Alice");
+    	 
+    	 int quantidadeAmigos = sistemaAmigoMap.getQuantidadeAmigos()
+    		 System.out.println("Quantidade de amigos:" +quantidadeAmigos);
+    	 
+}
+}
