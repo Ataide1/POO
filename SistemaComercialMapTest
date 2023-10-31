@@ -1,0 +1,12 @@
+import java.util.Map;
+public class SistemaComercialMapTest {
+		public void testaCadastroProdutos() {
+		SistemaComercialMap sistema = new SistemaComercialMap();
+		Collection<Produto> alimentos =
+		sistema.pesquisaProdutosDaCategoria(CategoriaProduto.ALIMENTO);
+		assertTrue(alimentos.size()==0);
+	    Collection<Produto> alimentos = 
+	    sistema.cadastraProduto(CategoriaProduto.Alimento);
+	    assertTrue(alimentos.quant()==1);
+		}
+		}
